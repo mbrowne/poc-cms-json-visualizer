@@ -1,0 +1,11 @@
+# mac files
+.DS_Store
+
+# node dependencies
+node_modules
+
+# distribution files
+public/bundle.js
+
+# misc
+tmp

@@ -1,0 +1,459 @@
+[
+  {
+    "__typename": "Entity",
+    "id": "5c98f2431a1cdd081c2f77ae",
+    "state": [
+      {
+        "__typename": "PropertyState",
+        "propertyId": "businessId",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"andy-warhol\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "displayName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Andy Warhol\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "shortBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"test **short** bio\\n\\n# adsf\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "longBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "firstName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Andy\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "lastName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Warhol\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "tags",
+        "value": {
+          "__typename": "Associations",
+          "associations": []
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "primaryNationality",
+        "value": {
+          "__typename": "Associations",
+          "associations": [
+            {
+              "__typename": "Association",
+              "destinationEntity": {
+                "__typename": "Entity",
+                "id": "5c9aa363a2a5cc23180ecfe4",
+                "state": [
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "businessId",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"american\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "name",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"American\""
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "__typename": "Entity",
+    "id": "5ca2819fdc8d592316439699",
+    "state": [
+      {
+        "__typename": "PropertyState",
+        "propertyId": "businessId",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"jean-michel-basquiat\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "displayName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Jean-Michel Basquiat\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "shortBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": null
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "longBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": null
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "firstName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Jean-Michel\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "lastName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Basquiat\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "tags",
+        "value": {
+          "__typename": "Associations",
+          "associations": []
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "primaryNationality",
+        "value": {
+          "__typename": "Associations",
+          "associations": []
+        }
+      }
+    ]
+  },
+  {
+    "__typename": "Entity",
+    "id": "5ca281b9dc8d59231643969b",
+    "state": [
+      {
+        "__typename": "PropertyState",
+        "propertyId": "businessId",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"warhol-basquiat\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "displayName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Andy Warhol and Jean-Michel Basquiat\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "shortBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": null
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "longBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": null
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "tags",
+        "value": {
+          "__typename": "Associations",
+          "associations": []
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "artists",
+        "value": {
+          "__typename": "Associations",
+          "associations": [
+            {
+              "__typename": "Association",
+              "destinationEntity": {
+                "__typename": "Entity",
+                "id": "5c98f2431a1cdd081c2f77ae",
+                "state": [
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "businessId",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"andy-warhol\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "displayName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Andy Warhol\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "shortBio",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"test **short** bio\\n\\n# adsf\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "longBio",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "firstName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Andy\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "lastName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Warhol\""
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "__typename": "Association",
+              "destinationEntity": {
+                "__typename": "Entity",
+                "id": "5ca2819fdc8d592316439699",
+                "state": [
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "businessId",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"jean-michel-basquiat\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "displayName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Jean-Michel Basquiat\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "shortBio",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": null
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "longBio",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": null
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "firstName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Jean-Michel\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "lastName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"Basquiat\""
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "__typename": "Entity",
+    "id": "5ca4d6f2554b19543d3407d3",
+    "state": [
+      {
+        "__typename": "PropertyState",
+        "propertyId": "businessId",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"miguel-julio\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "displayName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Miguel Julio\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "shortBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"sdaffsda\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "longBio",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": null
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "firstName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Miguel\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "lastName",
+        "value": {
+          "__typename": "LiteralPropertyValue",
+          "value": "\"Julio\""
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "tags",
+        "value": {
+          "__typename": "Associations",
+          "associations": [
+            {
+              "__typename": "Association",
+              "destinationEntity": {
+                "__typename": "Entity",
+                "id": "5c9bd8969c70bd4f7d6bce40",
+                "state": [
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "businessId",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"1960s\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "displayName",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"1960s\""
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "__typename": "PropertyState",
+        "propertyId": "primaryNationality",
+        "value": {
+          "__typename": "Associations",
+          "associations": [
+            {
+              "__typename": "Association",
+              "destinationEntity": {
+                "__typename": "Entity",
+                "id": "5c9aa363a2a5cc23180ecfe4",
+                "state": [
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "businessId",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"american\""
+                    }
+                  },
+                  {
+                    "__typename": "PropertyState",
+                    "propertyId": "name",
+                    "value": {
+                      "__typename": "LiteralPropertyValue",
+                      "value": "\"American\""
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

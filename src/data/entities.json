@@ -1,0 +1,127 @@
+[
+  {
+    "id": "5c9544ea2a873a2f2d04e94e",
+    "entityDefId": "TagSubject",
+    "state": { "businessId": "artwork-type", "displayName": "Artwork Type" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c98f2431a1cdd081c2f77ae",
+    "entityDefId": "Artist",
+    "state": {
+      "businessId": "andy-warhol",
+      "displayName": "Andy Warhol",
+      "shortBio": "test **short** bio\n\n# adsf",
+      "longBio": "",
+      "firstName": "Andy",
+      "lastName": "Warhol"
+    },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c98f25c1a1cdd081c2f77af",
+    "entityDefId": "OriginalArtwork",
+    "state": { "businessId": "mao-fs-ii-97", "title": "Mao (FS II.97)" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c98f28f1a1cdd081c2f77b1",
+    "entityDefId": "ArtworkEdition",
+    "state": {
+      "businessId": "mao-fs-ii-97--2",
+      "editionLabel": "Edition of 250"
+    },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c9aa363a2a5cc23180ecfe4",
+    "entityDefId": "Nationality",
+    "state": { "businessId": "american", "name": "American" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c9aa369a2a5cc23180ecfe5",
+    "entityDefId": "Nationality",
+    "state": { "businessId": "spanish", "name": "Spanish" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c9bd8969c70bd4f7d6bce40",
+    "entityDefId": "Tag",
+    "state": { "businessId": "1960s", "displayName": "1960s" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5c9bd89e9c70bd4f7d6bce41",
+    "entityDefId": "Tag",
+    "state": { "businessId": "pop-art", "displayName": "Pop Art" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca280cbdc8d592316439694",
+    "entityDefId": "OriginalArtwork",
+    "state": { "businessId": "soup-can-1", "title": "Soup Can 1" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca280d7dc8d592316439696",
+    "entityDefId": "ArtworkEdition",
+    "state": { "businessId": "soup-can-1--1", "editionLabel": null },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca2819fdc8d592316439699",
+    "entityDefId": "Artist",
+    "state": {
+      "businessId": "jean-michel-basquiat",
+      "displayName": "Jean-Michel Basquiat",
+      "shortBio": null,
+      "longBio": null,
+      "firstName": "Jean-Michel",
+      "lastName": "Basquiat"
+    },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca281b9dc8d59231643969b",
+    "entityDefId": "Collaboration",
+    "state": {
+      "businessId": "warhol-basquiat",
+      "displayName": "Andy Warhol and Jean-Michel Basquiat",
+      "shortBio": null,
+      "longBio": null
+    },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca3ae7917eec23eb44e272f",
+    "entityDefId": "ArtworkEdition",
+    "state": { "businessId": "mao-fs-ii-97--1", "editionLabel": null },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca4d6f2554b19543d3407d3",
+    "entityDefId": "Artist",
+    "state": {
+      "businessId": "miguel-julio",
+      "displayName": "Miguel Julio",
+      "shortBio": "sdaffsda",
+      "longBio": null,
+      "firstName": "Miguel",
+      "lastName": "Julio"
+    },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca4d729554b19543d3407d6",
+    "entityDefId": "OriginalArtwork",
+    "state": { "businessId": "cubes", "title": "Miguel's Cubes" },
+    "__typename": "Entity"
+  },
+  {
+    "id": "5ca4d740554b19543d3407d8",
+    "entityDefId": "ArtworkEdition",
+    "state": { "businessId": "cubes--1", "editionLabel": null },
+    "__typename": "Entity"
+  }
+]

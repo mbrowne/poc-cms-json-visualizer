@@ -1,0 +1,494 @@
+[
+  {
+    "id": "5c98f25c1a1cdd081c2f77b0",
+    "associationDef": {
+      "id": "'creator' on 'OriginalArtwork'",
+      "name": "creator",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f25c1a1cdd081c2f77af"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f2431a1cdd081c2f77ae"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5c9aa370a2a5cc23180ecfe6",
+    "associationDef": {
+      "id": "'primaryNationality' on 'Artist'",
+      "name": "primaryNationality",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c9aa363a2a5cc23180ecfe4",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f2431a1cdd081c2f77ae"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c9aa363a2a5cc23180ecfe4",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c9aa363a2a5cc23180ecfe4"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca281b9dc8d59231643969c",
+    "associationDef": {
+      "id": "'artists' on 'Collaboration'",
+      "name": "artists",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "Collaboration",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "Collaboration",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca281b9dc8d59231643969b"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f2431a1cdd081c2f77ae"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca281b9dc8d59231643969d",
+    "associationDef": {
+      "id": "'artists' on 'Collaboration'",
+      "name": "artists",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "Collaboration",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5ca2819fdc8d592316439699",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "Collaboration",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca281b9dc8d59231643969b"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5ca2819fdc8d592316439699",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca2819fdc8d592316439699"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca28340dfeed92416af9227",
+    "associationDef": {
+      "id": "'creator' on 'OriginalArtwork'",
+      "name": "creator",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca280cbdc8d592316439694"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c98f2431a1cdd081c2f77ae",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f2431a1cdd081c2f77ae"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca3c601510761479aa7e2a3",
+    "associationDef": {
+      "id": "'editions' on 'OriginalArtwork'",
+      "name": "editions",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f25c1a1cdd081c2f77af"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca3ae7917eec23eb44e272f"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca3ca25817ff949a30957f9",
+    "associationDef": {
+      "id": "'editions' on 'OriginalArtwork'",
+      "name": "editions",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f25c1a1cdd081c2f77af"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c98f28f1a1cdd081c2f77b1"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca3d10c4602d94a509bec2a",
+    "associationDef": {
+      "id": "'editions' on 'OriginalArtwork'",
+      "name": "editions",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca280cbdc8d592316439694"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca280d7dc8d592316439696"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca4d6f2554b19543d3407d4",
+    "associationDef": {
+      "id": "'tags' on 'Artist'",
+      "name": "tags",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c9bd8969c70bd4f7d6bce40",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d6f2554b19543d3407d3"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c9bd8969c70bd4f7d6bce40",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c9bd8969c70bd4f7d6bce40"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca4d6f2554b19543d3407d5",
+    "associationDef": {
+      "id": "'primaryNationality' on 'Artist'",
+      "name": "primaryNationality",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5c9aa363a2a5cc23180ecfe4",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "Artist",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d6f2554b19543d3407d3"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5c9aa363a2a5cc23180ecfe4",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5c9aa363a2a5cc23180ecfe4"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca4d729554b19543d3407d7",
+    "associationDef": {
+      "id": "'creator' on 'OriginalArtwork'",
+      "name": "creator",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "5ca4d6f2554b19543d3407d3",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d729554b19543d3407d6"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "5ca4d6f2554b19543d3407d3",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d6f2554b19543d3407d3"
+      }
+    ],
+    "__typename": "Association"
+  },
+  {
+    "id": "5ca4d740554b19543d3407d9",
+    "associationDef": {
+      "id": "'editions' on 'OriginalArtwork'",
+      "name": "editions",
+      "itemDefs": [
+        {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        }
+      ],
+      "__typename": "AssociationDefinition"
+    },
+    "items": [
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "source",
+          "entityDefId": "OriginalArtwork",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d729554b19543d3407d6"
+      },
+      {
+        "__typename": "AssociationItem",
+        "associationItemDef": {
+          "direction": "destination",
+          "entityDefId": "ArtworkEdition",
+          "__typename": "AssociationItemDefinition"
+        },
+        "entityId": "5ca4d740554b19543d3407d8"
+      }
+    ],
+    "__typename": "Association"
+  }
+]

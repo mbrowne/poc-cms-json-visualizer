@@ -1,0 +1,67 @@
+@import 'collapsible.css';
+
+:root {
+    --gray: gray;
+    --light-gray: lightgray;
+    --panel-header-bgcolor: rgb(8,81,156);
+    --panel-header-alt-bgcolor: rgb(22, 158, 89);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.object-table-container {
+    & .remaining-props {
+        transition: height 200ms linear;
+        overflow: hidden;
+
+        & tr:first-child {
+            border-top: 1px solid var(--light-gray);
+        }
+    }
+
+    &.has-additional-props > table > tr:last-child {
+        border-bottom: 1px solid var(--light-gray);
+    }
+}
+
+.object-table-container:has(> .show-more) {
+    border: 1px solid blue !important;   
+}
+
+.empty-array {
+    color: var(--panel-header-alt-bgcolor);
+    &::before {
+        content: '[';
+    }
+    &::after {
+        content: ']';
+    }
+}
+
+.null {
+    font-family: monospace;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1em;
+}

@@ -1,0 +1,79 @@
+
+// The main container element
+.Collapsible {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+//The content within the collaspable area
+.Collapsible__contentInner {
+  padding: 10px;
+  border: 1px solid var(--light-gray);
+  border-top: 0;
+}
+
+.Collapsible.array {
+    & > .Collapsible__trigger {
+        background: var(--panel-header-alt-bgcolor);
+    }
+}
+
+//The link which when clicked opens the collapsable area
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: --gray;
+  position: relative;
+  border: 1px solid var(--light-gray);
+  padding: 10px;
+  background: var(--panel-header-bgcolor);
+  color: white;
+  cursor: pointer;
+
+  &.show-more, &.show-less {
+      display: inline-block;
+      background: white;
+      border: none;
+      color: var(--gray);
+      margin-top: 10px;
+      padding-right: 40px;
+  }
+
+  &:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open, &.show-less {
+    &:after {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+}
+
+  &:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open, &.show-less {
+    &:after {
+      transform: rotateZ(180deg);
+    }
+  }
